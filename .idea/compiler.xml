@@ -26,19 +26,19 @@
         <module name="client-feign" />
         <module name="client-feign-properties" />
         <module name="cloud02-client" />
-        <module name="cloud02-provider" />
         <module name="eureka" />
         <module name="eureka-ha1" />
         <module name="eureka-ha2" />
+        <module name="provider2" />
         <module name="ribbon" />
         <module name="ribbon-properties" />
       </profile>
-      <profile default="false" name="Annotation profile for cloud02" enabled="true">
-        <sourceOutputDir name="../provider/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../provider/target/generated-test-sources/test-annotations" />
+      <profile default="false" name="Annotation profile for cloud02-provider" enabled="true">
+        <sourceOutputDir name="../provider2/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../provider2/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="provider2" />
+        <module name="cloud02-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
