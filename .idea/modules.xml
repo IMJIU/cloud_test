@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-feign/client-feign.iml" filepath="$PROJECT_DIR$/client-feign/client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-feign-properties/client-feign-properties.iml" filepath="$PROJECT_DIR$/client-feign-properties/client-feign-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/cloud02-provider.iml" filepath="$PROJECT_DIR$/provider/cloud02-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-ha1/eureka-ha1.iml" filepath="$PROJECT_DIR$/eureka-ha1/eureka-ha1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-ha2/eureka-ha2.iml" filepath="$PROJECT_DIR$/eureka-ha2/eureka-ha2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider2/provider2.iml" filepath="$PROJECT_DIR$/provider2/provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-properties/ribbon-properties.iml" filepath="$PROJECT_DIR$/ribbon-properties/ribbon-properties.iml" />
+    </modules>
+  </component>
+</project>
