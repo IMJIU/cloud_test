@@ -11,14 +11,14 @@
 	<name>cloud02</name>
 
 	<modules>
-		<module>client</module>
 		<module>provider</module>
-		<module>eureka</module>
-		<module>client-ribbon</module>
 		<module>provider2</module>
+		<module>client</module>
+		<module>client-ribbon</module>
 		<module>client-ribbon-properties</module>
 		<module>client-feign</module>
 		<module>client-feign-properties</module>
+		<module>eureka</module>
 		<module>eureka-ha1</module>
 		<module>eureka-ha2</module>
 	</modules>
