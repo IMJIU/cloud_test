@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ribbon-properties</artifactId>
+    <artifactId>client-ribbon</artifactId>
     <packaging>jar</packaging>
 
     <parent>

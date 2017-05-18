@@ -14,9 +14,9 @@
 		<module>client</module>
 		<module>provider</module>
 		<module>eureka</module>
-		<module>ribbon</module>
+		<module>client-ribbon</module>
 		<module>provider2</module>
-		<module>ribbon-properties</module>
+		<module>client-ribbon-properties</module>
 		<module>client-feign</module>
 		<module>client-feign-properties</module>
 		<module>eureka-ha1</module>
