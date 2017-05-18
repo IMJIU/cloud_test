@@ -6,12 +6,10 @@ import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
-
 /**
  * Created by Administrator on 2017/5/9.
  */
@@ -21,7 +19,7 @@ public class UserController {
     @Autowired
     private UserDao userDao;
     @Autowired
-    private org.springframework.cloud.client.discovery.DiscoveryClient discoveryClient;
+    private DiscoveryClient discoveryClient;
     @Autowired
     private EurekaClient eurekaClient;
     @GetMapping("/user/{id}")
