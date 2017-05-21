@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-feign-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-feign-properties-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-hystrix-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-ribbon-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
