@@ -2,7 +2,7 @@ server:
   port: 7903
 spring:
   application:
-    name: client
+    name: client-hystrix
 eureka:
   client:
     healthcheck:

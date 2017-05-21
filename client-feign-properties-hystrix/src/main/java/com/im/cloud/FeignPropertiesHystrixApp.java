@@ -9,7 +9,6 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@EnableCircuitBreaker
 public class FeignPropertiesHystrixApp {
 	public static void main(String[] args) {
 		SpringApplication.run(FeignPropertiesHystrixApp.class, args);

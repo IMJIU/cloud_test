@@ -15,14 +15,14 @@ import org.springframework.web.client.RestTemplate;
  */
 @RestController
 public class UserController {
-    @Autowired
-    private RestTemplate restTemplate;
-
-    @GetMapping("/user/{id}")
-    @HystrixCommand(fallbackMethod = "getFailback")
-    public User get(@PathVariable Long id) {
-        return restTemplate.getForObject("http://PROVIDER/user/" + id, User.class);
-    }
+//    @Autowired
+//    private RestTemplate restTemplate;
+//
+//    @GetMapping("/user/{id}")
+//    @HystrixCommand(fallbackMethod = "getFailback")
+//    public User get(@PathVariable Long id) {
+//        return restTemplate.getForObject("http://PROVIDER/user/" + id, User.class);
+//    }
 
 
     public User getFailback(@PathVariable Long id) {

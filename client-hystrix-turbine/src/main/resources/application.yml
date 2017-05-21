@@ -1,16 +1,15 @@
 server:
-  port: 7903
+  port: 7904
 spring:
   application:
-    name: client
+    name: client-hystrix-turbine
 eureka:
   client:
     healthcheck:
       enabled: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
-provider:
-  ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+turbine:
+  aggregator:
+    clusterConfig: CLIENT-HYSTRIX
+  app-config: client-hystrix

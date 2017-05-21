@@ -14,13 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     private IUserRemote userRemote;
-    @Autowired
-    private UserRemote userRemote2;
 
     @GetMapping("/user/{id}")
     public User get(@PathVariable Long id) {
         System.out.println(userRemote.getClass().getName());
-        System.out.println(userRemote2.getClass().getName());
         return userRemote.get(id);
     }
 

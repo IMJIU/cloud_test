@@ -1,16 +1,16 @@
 server:
-  port: 7902
+  port: 7905
 spring:
   application:
-    name: client
+    name: client-feign-hystrix
 eureka:
   client:
     healthcheck:
       enabled: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
-feign:
-  hystrix:
-    metrics:
-      enabled: true
+feign.hystrix.enabled: true
+#feign:
+#  hystrix:
+#      enabled: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
