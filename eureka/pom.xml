@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud02-eureka</artifactId>
+    <artifactId>eureka</artifactId>
     <packaging>jar</packaging>
 
-    <name>cloud02-eureka</name>
+    <name>eureka</name>
 
     <parent>
         <groupId>com.im.cloud</groupId>

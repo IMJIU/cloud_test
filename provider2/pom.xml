@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 
-	<artifactId>cloud02-provider</artifactId>
+	<artifactId>provider2</artifactId>
 	<packaging>jar</packaging>
 
-	<name>cloud02-provider2</name>
+	<name>provider2</name>
 
 	<parent>
 		<groupId>com.im.cloud</groupId>

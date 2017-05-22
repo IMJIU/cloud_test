@@ -18,11 +18,11 @@
 		<module>client-ribbon-properties</module>
 		<module>client-feign</module>
 		<module>client-feign-properties</module>
+		<module>client-feign-properties-hystrix</module>
 		<module>eureka</module>
 		<module>eureka-ha1</module>
 		<module>eureka-ha2</module>
 		<module>client-hystrix</module>
-		<module>client-feign-properties-hystrix</module>
 		<module>client-hystrix-turbine</module>
 		<module>client-hystrix-dashboard</module>
 		<module>zuul</module>
