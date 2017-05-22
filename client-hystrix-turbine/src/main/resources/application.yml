@@ -1,0 +1,15 @@
+server:
+  port: 7904
+spring:
+  application:
+    name: client-hystrix-turbine
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+turbine:
+  aggregator:
+    clusterConfig: CLIENT-HYSTRIX
+  app-config: client-hystrix
