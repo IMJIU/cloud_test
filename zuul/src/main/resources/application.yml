@@ -11,3 +11,4 @@ zuul:
   ignoredServices: '*'
   routes:
     provider: /z/**
+    ribbon: /r/**

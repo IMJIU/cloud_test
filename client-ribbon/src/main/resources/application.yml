@@ -1,5 +1,5 @@
 server:
-  port: 8900
+  port: 7911
 spring:
   application:
     name: ribbon
