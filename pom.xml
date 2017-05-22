@@ -7,7 +7,6 @@
 	<artifactId>cloud02</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
 	<name>cloud02</name>
 
 	<modules>
@@ -22,7 +21,7 @@
 		<module>eureka</module>
 		<module>eureka-ha1</module>
 		<module>eureka-ha2</module>
-		<module>client-hystrix</module>
+		<module>client-hystrix-ribbon</module>
 		<module>client-hystrix-turbine</module>
 		<module>client-hystrix-dashboard</module>
 		<module>zuul</module>

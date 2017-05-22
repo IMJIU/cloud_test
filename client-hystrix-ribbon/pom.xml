@@ -3,11 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>client-hystrix</artifactId>
+	<artifactId>client-hystrix-ribbon</artifactId>
 	<packaging>jar</packaging>
-
-	<name>client-hystrix</name>
-
+	<name>client-hystrix-ribbon</name>
 	<parent>
 		<groupId>com.im.cloud</groupId>
 		<artifactId>cloud02</artifactId>
