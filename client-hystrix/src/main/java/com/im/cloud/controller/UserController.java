@@ -21,7 +21,7 @@ public class UserController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/user/{id}")
+    @GetMapping("/get/{id}")
     @HystrixCommand(fallbackMethod = "getFailback")
     public User get(@PathVariable Long id) {
         return restTemplate.getForObject("http://PROVIDER/user/" + id, User.class);

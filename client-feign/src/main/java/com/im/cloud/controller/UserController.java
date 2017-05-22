@@ -16,7 +16,7 @@ public class UserController {
     private IUserRemote userRemote;
 
 
-    @GetMapping("/user/{id}")
+    @GetMapping("/get/{id}")
     public User get(@PathVariable Long id) {
         return userRemote.get(id);
     }

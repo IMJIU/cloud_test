@@ -19,7 +19,7 @@ public class UserController2 {
     @Value("${user.userServicePath}")
     private String userServicePath;
 
-    @GetMapping("/user/{id}")
+    @GetMapping("/get/{id}")
     public User get(@PathVariable Long id) {
         return restTemplate.getForObject(userServicePath + id, User.class);
     }

@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>client-feign-properties</artifactId>
+	<artifactId>client-feign-properties-hystrix</artifactId>
 	<packaging>jar</packaging>
 
-	<name>client-feign-properties</name>
+	<name>client-feign-properties-hystrix</name>
 
 	<parent>
 		<groupId>com.im.cloud</groupId>

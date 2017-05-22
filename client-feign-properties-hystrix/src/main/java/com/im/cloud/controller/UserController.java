@@ -15,7 +15,7 @@ public class UserController {
     @Autowired
     private IUserRemote userRemote;
 
-    @GetMapping("/user/{id}")
+    @GetMapping("/get/{id}")
     public User get(@PathVariable Long id) {
         System.out.println(userRemote.getClass().getName());
         return userRemote.get(id);
