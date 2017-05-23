@@ -25,7 +25,8 @@
 		<module>client-hystrix-turbine</module>
 		<module>client-hystrix-dashboard</module>
 		<module>zuul</module>
-	</modules>
+        <module>zuul-regex</module>
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
