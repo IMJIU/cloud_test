@@ -28,6 +28,7 @@
         <module>zuul-regex</module>
 		<module>config-server</module>
 		<module>config-client2</module>
+		<module>config-server-eureka</module>
 	</modules>
 
 	<parent>
