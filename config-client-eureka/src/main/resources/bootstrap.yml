@@ -3,6 +3,8 @@ spring:
     name: foo    # 对应config server所获取的配置文件的{application}
   cloud:
     config:
+#      username: user
+#      password: password123   #server开启http认证时用
       profile: dev
       label: master
       discovery:
