@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sleuth-zipkin-miya</artifactId>
+    <artifactId>sleuth-zipkin-order</artifactId>
     <packaging>jar</packaging>
 
-    <name>sleuth-zipkin-miya</name>
+    <name>sleuth-zipkin-order</name>
     <url>http://maven.apache.org</url>
 
     <properties>
