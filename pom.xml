@@ -13,8 +13,8 @@
 		<module>provider</module>
 		<module>provider2</module>
 		<module>client</module>
-		<module>client-ribbon</module>
-		<module>client-ribbon-properties</module>
+		<module>client-ribbon-prop</module>
+		<module>client-ribbon1</module>
 		<module>client-feign</module>
 		<module>client-feign-properties</module>
 		<module>client-feign-properties-hystrix</module>

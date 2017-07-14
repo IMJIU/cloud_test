@@ -1,5 +1,5 @@
 server:
-  port: 7950
+  port: 7951
 spring:
   application:
     name: config-server-eureka

@@ -1,2 +1,5 @@
 server:
   port: 7953
+management:
+  security:
+    enabled: false
